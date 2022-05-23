@@ -1,3 +1,4 @@
+@login
 Feature: Sconto Login feature
   Log in to the website Sconto to see the account area
 

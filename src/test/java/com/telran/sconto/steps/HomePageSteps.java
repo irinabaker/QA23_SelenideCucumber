@@ -12,6 +12,7 @@ public class HomePageSteps implements En {
 
     public HomePageSteps() {
         Given("Navigate to Homepage",() ->{
+          //  System.setProperty("selenide.browser","Firefox");
             homePage = open(baseUrl,HomePage.class);
             homePage.acceptCookies();
         });
